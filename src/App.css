@@ -2,8 +2,60 @@
   text-align: center;
 }
 
+body{
+  position:relative;
+  background-image: url('https://images-na.ssl-images-amazon.com/images/I/61jbPPo1gzL._SL1005_.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+button{
+  background-color: blanchedalmond;
+}
+
+#two{
+  padding-right:150px;
+  position: relative;
+  top: 12px;
+  left: 60px;
+  height:220px
+}
+.container{
+  position: relative;;
+  align-items: center;
+ 
+}
+.App h1.h1Tag{
+  font-family: 'Rye', cursive;
+  font-size: 70px;
+  text-transform: uppercase;
+	background: linear-gradient(to bottom, gold 20%, red 90%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-shadow: 20px 1px 2px 2px gray;
+  
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#gameover{
+  padding-right:150px;
+  position: relative;
+  height: 100px;
+  width: 200px;
+  top: 12px;
+  left: 60px;
+}
+
 .App-logo {
   height: 40vmin;
+  
 }
 
 .App-header {
